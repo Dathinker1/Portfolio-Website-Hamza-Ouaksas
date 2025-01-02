@@ -3,13 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Me</title>
+  <title>Portfolio Homepage</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+
   <!-- Navigation Bar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
       <a class="navbar-brand" href="index.html">My Portfolio</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,15 +27,84 @@
     </div>
   </nav>
 
-  <!-- Main Content -->
-  <main class="container py-5">
-    <h1>About Me</h1>
-    <p>Welcome to my portfolio! I'm a passionate artist who specializes in illustration and concept art. This section tells my story and background.</p>
-  </main>
+  <div id="scrollablecontent">
+    <main>
+      <div class="container py-5">
+        <div class="row align-items-center justify-content-center">
+          <!-- Image Column -->
+          <div class="col-md-4 text-center mb-4">
+            <img src="images/your-photo.jpg" alt="Your Photo" class="img-fluid rounded-circle mb-3" style="max-width: 300px;">
+          </div>
+    
+          <!-- Text Column -->
+          <div class="col-md-6">
+            <h1>About Me</h1>
+            <p>
+              Hi, I'm [Your Name], a passionate artist specializing in illustration and concept art. I create imaginative and inspiring visuals that bring stories to life.
+            </p>
+            <p>
+              I started as a hobbyist, exploring different artistic styles, and today, I strive to create art that connects with audiences and sparks creativity.
+            </p>
+            <p>
+              When I'm not working on new projects, you'll find me in nature, soaking in inspiration, or learning new techniques to improve my craft. I hope you enjoy exploring my work in the Illustrations and Concept Art sections!
+            </p>
+          </div>
+        </div>
+    
+        <!-- Additional Text Beneath Image -->
+        <div class="row mt-4 justify-content-center">
+          <div class="col-md-8">
+            <p>
+              Let's create something amazing together. Feel free to reach out if you're interested in collaborating or learning more about my work!
+            </p>
+          </div>
+        </div>
+    
+        <!-- Hobbies Section -->
+        <div class="row mt-5">
+          <div class="col-md-8 offset-md-2">
+            <div class="hobbies-section">
+              <h2 class="hobbies-title">Hobbies</h2>
+              <p>
+                When I'm not creating art, I enjoy a variety of hobbies, including hiking, reading, and photography. I love exploring new places and capturing the beauty around me, which often inspires my work.
+              </p>
+              <p>
+                I also enjoy experimenting with different art forms, including digital painting and sculpture, which helps me push the boundaries of my creativity.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- dummy section -->
+        <div class="col-md-8 offset-md-2">
+          <div class="hobbies-section">
+            <h2 class="hobbies-title">Dummy</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae lectus et lectus aliquet blandit mattis nec nibh. Cras tincidunt metus consectetur nibh aliquet, cursus pharetra diam dapibus. Duis commodo neque purus, sed facilisis nunc auctor sed. Mauris erat sapien, ullamcorper quis mi at, semper facilisis orci. Nullam sit amet nibh laoreet urna scelerisque aliquet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc id nunc sed libero elementum tincidunt. Mauris volutpat, risus nec aliquet venenatis, enim quam volutpat diam, et aliquam orci dolor sit amet ipsum.
+
+Sed interdum sem libero, quis aliquam sapien feugiat id. Donec scelerisque accumsan lorem id tincidunt. Etiam velit velit, congue et pharetra a, molestie a arcu. Fusce enim tellus, euismod ac risus ac, elementum molestie velit. Maecenas nec sapien finibus, fermentum ex in, ultrices lorem. Nam sagittis odio non orci ultrices, eu mollis dui vulputate. Suspendisse eu malesuada nisl, vitae feugiat elit. Nunc sit amet purus interdum, mattis est in, porttitor magna.
+            </p>
+          </div>
+        </div>
+
+        <!-- dummy section -->
+        <div class="col-md-8 offset-md-2">
+          <div class="hobbies-section">
+            <h2 class="hobbies-title">Dummy</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae lectus et lectus aliquet blandit mattis nec nibh. Cras tincidunt metus consectetur nibh aliquet, cursus pharetra diam dapibus. Duis commodo neque purus, sed facilisis nunc auctor sed. Mauris erat sapien, ullamcorper quis mi at, semper facilisis orci. Nullam sit amet nibh laoreet urna scelerisque aliquet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc id nunc sed libero elementum tincidunt. Mauris volutpat, risus nec aliquet venenatis, enim quam volutpat diam, et aliquam orci dolor sit amet ipsum.
+
+Sed interdum sem libero, quis aliquam sapien feugiat id. Donec scelerisque accumsan lorem id tincidunt. Etiam velit velit, congue et pharetra a, molestie a arcu. Fusce enim tellus, euismod ac risus ac, elementum molestie velit. Maecenas nec sapien finibus, fermentum ex in, ultrices lorem. Nam sagittis odio non orci ultrices, eu mollis dui vulputate. Suspendisse eu malesuada nisl, vitae feugiat elit. Nunc sit amet purus interdum, mattis est in, porttitor magna.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    
 
   <!-- Footer -->
-  <footer class="bg-dark text-white text-center py-3">
-    <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+  <footer class="footer text-white text-center py-3">
+    <p>&copy; 2025 - H. Ouaksas, All rights reserved</p>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
